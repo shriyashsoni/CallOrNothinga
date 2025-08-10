@@ -1,0 +1,21 @@
+{
+  "name": "poker-dapp",
+  "version": "1.0.0",
+  "description": "Decentralized Poker Game",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.12",
+    "chai": "^4.5.0",
+    "ethers": "^6.13.5",
+    "glob": "^10.3.0",
+    "hardhat": "^2.22.18"
+  }
+}
